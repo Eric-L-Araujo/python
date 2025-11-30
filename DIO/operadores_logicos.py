@@ -7,3 +7,7 @@ conta_especial = True
 
 (saldo >= saque and saque <= limite ) or (conta_especial and saldo >= saque)
 
+
+if limite != saldo: {
+   
+}
