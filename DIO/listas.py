@@ -66,3 +66,75 @@ for indice, carro in enumerate(carros):
 # 2: palio
 
 
+# função enumerate
+# Às vezes é necessário saber qual o índice do objeto dentro do laço for. Para isso podemos usar a função enumerate
+
+
+for indice, carro in enumerate(carros): 
+     print(f"{indice}: {carro}")
+
+
+# 0: gol
+# 1: celta
+# 2: palio
+# 0: gol
+# 1: celta
+# 2: palio
+
+# Filtro versão 1
+
+numeros = [1, 30, 21, 2, 9, 65, 34]
+pares = []
+
+for numero in numeros:
+    if numero % 2 == 0:
+        pares.append(numero)
+print(pares)
+
+
+
+# Filtro versão 2
+
+numeros = [1, 30, 21, 2, 9, 65, 34]
+pares = [numero for numero in numeros if numero % 2 == 0]
+
+print(pares)
+print(numeros)
+
+
+
+#Modificando valores versão 1
+numeros = [1, 30, 21, 2, 9, 65, 34]
+quadrado = []
+
+for numero in numeros:
+    quadrado.append(numero ** 2)
+
+print(quadrado)
+
+
+#Modificando valores versão 2
+
+numeros = [1, 30, 21, 2, 9, 65, 34]
+quadrado = [numero ** 2 for numero in numeros]
+
+print(quadrado)
+
+
+
+# [].clear = Limpa a lista
+#  [].copy = retorna uma lista igual mas em uma nova instância 
+#  [].count => Mostra quantas vezes um objeto aparece na lista.
+
+
+lista.clear()
+
+
+
+
+
+
+
+
+
+
